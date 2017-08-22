@@ -9,7 +9,6 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
   
 });
-var $content:`<p>this is just a test!!</p>`
 app.get('/Cars.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'Cars.html'));
 });
