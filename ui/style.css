@@ -29,6 +29,7 @@ body {
 }
 .cPar{
     color:rgba(0,0,60,0.6);
+    margin : 0 auto;
 }
 .cH{
     color:rgba(0,60,60,0.6);
