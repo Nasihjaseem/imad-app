@@ -11,13 +11,13 @@ app.get('/', function (req, res) {
 app.get('/Cars', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'Cars.html'));
 });
-app.get('/Cars/audi', function (req, res) {
+app.get('/Cars/audi.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui/cars', 'audi.html'));
 });
-app.get('/Cars/bmw', function (req, res) {
+app.get('/Cars/bmw.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui/cars', 'bmw.html'));
 });
-app.get('/Cars/mercedes', function (req, res) {
+app.get('/Cars/mercedes.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui/cars', 'mercedes.html'));
 });
 
