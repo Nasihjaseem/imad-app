@@ -55,25 +55,3 @@ a:hover, a:active {
     color:rgba(0,60,60,0.6);
     text-align: center;
 }
-
-
-
-
-\\link refference
-
-a:link {
-    color: red;
-    text-decoration: none;
-}
-a:visited {
-    color: green;
-    text-decoration: underline;
-}
-
-a:hover {
-    color: hotpink;
-    text-decoration: underline;
-}
-a:active {
-    color: blue;
-}
