@@ -11,12 +11,7 @@ xhttp.onreadystatechange = function() {
 };
 var bn = document.getElementById("bn");
 bn.onclick=function(){
-if (window.XMLHttpRequest) {
-    // code for modern browsers
     xmlhttp = new XMLHttpRequest();
- } else {
-    // code for old IE browsers
-    xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
 } 
           
 };
