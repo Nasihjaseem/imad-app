@@ -11,6 +11,7 @@ xhttp.onreadystatechange = function() {
 };
 var bn = document.getElementById("bn");
 bn.onclick=function(){
+    alert("wow");
     xmlhttp = new XMLHttpRequest();
           
 };
