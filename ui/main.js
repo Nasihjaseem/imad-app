@@ -10,5 +10,7 @@ button.onclick=  function() {
             }
         }
     }
+    var inb=0;
+    alert(inb);
     
 }
