@@ -8,7 +8,7 @@ button.onclick=  function() {
             var counter = request.responseText;
             var span = document.getElementById("inc");
             span.innerHTML = counter.toString();
-             alert(counter);
+             console.log(counter);
             }
         }
     }
