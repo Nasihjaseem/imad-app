@@ -9,7 +9,7 @@ body {
 /*link style*/
 a:link, a:visited {
     background-color: rgba(100,0,0,0.6);
-    color: white;
+    color:rgba(60,0,0,0.6);
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
