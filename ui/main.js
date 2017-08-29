@@ -13,6 +13,6 @@ request.onreadystatechange= function(){
         }
     }
 }
-          
+request.open('GET','http://nasihjzofficial.imad.hasura-app.io/counter',true);
+request.send(null);
 };
-  
