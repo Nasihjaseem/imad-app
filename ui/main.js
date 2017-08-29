@@ -13,8 +13,6 @@ var bn = document.getElementById("bn");
 bn.onclick=function(){
 
   alert("hey");
-    
-};
           
 };
   
