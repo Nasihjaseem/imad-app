@@ -65,14 +65,14 @@ a:hover, a:active {
   margin: 5px;
 }
 
-.button span {
+.button .btn {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-.button span:after {
+.button .btn:after {
   content: '\00bb';
   position: absolute;
   opacity: 0;
@@ -81,11 +81,11 @@ a:hover, a:active {
   transition: 0.5s;
 }
 
-.button:hover span {
+.button:hover .span {
   padding-right: 25px;
 }
 
-.button:hover span:after {
+.button:hover .span:after {
   opacity: 1;
   right: 0;
 }
