@@ -12,7 +12,5 @@ button.onclick=  function() {
             }
         }
     }
-    var inb=0;
    
-    
-}
+};
