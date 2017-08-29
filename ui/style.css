@@ -47,16 +47,19 @@ body {
 
     a:link {
     color: red;
+    text-decoration: none;
 }
 
 /* visited link */
 a:visited {
     color: green;
+    text-decoration: underline;
 }
 
 /* mouse over link */
 a:hover {
     color: hotpink;
+    text-decoration: underline;
 }
 
 /* selected link */
