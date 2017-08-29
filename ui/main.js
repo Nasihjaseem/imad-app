@@ -7,10 +7,11 @@ button.onclick=  function() {
             if(request.status===200){
             var counter=request.responseText;
             document.getElementById("inc").innerHTML = counter.toString();
+             alert(counter);
             }
         }
     }
     var inb=0;
-    alert(counter);
+   
     
 }
