@@ -5,6 +5,6 @@ button.onclick= function(){
 
 
     counter=counter + 1;
-   var count=document.getElementById("inc");
-   count.innerHTML=counter.toString();
+    var count=document.getElementById('inc');
+    count.innerHTML= counter.toString();
 }
