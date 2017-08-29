@@ -8,7 +8,7 @@ body {
 
 /*link style*/
 a:link, a:visited {
-    background-color: rgba(250,0,0,0.6);
+    background-color: rgba(300,0,0,0.6);
     color: white;
     padding: 14px 25px;
     text-align: center;
