@@ -8,7 +8,7 @@ request.onreadystatechange= function(){
     if(request.onreadyState===XMLHttpRequest.DONE){
         if(request.status===200){
             counter=request.responseText;
-            var span=document.getElementById("inc");
+            var span=document.getElementById('inc');
             span.innerHTML=counter.toString();
         }
     }
