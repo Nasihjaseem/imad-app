@@ -8,6 +8,13 @@ xhttp.onreadystatechange = function() {
        document.getElementById("inc").innerHTML = xhttp.responseText;
     }
 };
-          
-   
 };
+var bn = document.getElementById("bn");
+bn.onclick=function(){
+
+  alert("hey");
+    
+};
+          
+};
+  
