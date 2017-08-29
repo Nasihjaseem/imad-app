@@ -81,11 +81,11 @@ a:hover, a:active {
   transition: 0.5s;
 }
 
-.button:hover .span {
+.button:hover .btn {
   padding-right: 25px;
 }
 
-.button:hover .span:after {
+.button:hover .btn:after {
   opacity: 1;
   right: 0;
 }
