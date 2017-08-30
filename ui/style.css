@@ -32,6 +32,11 @@ a:hover, a:active {
 .bold {
     font-weight: bold;
 }
+.desc{
+    font-family: times new roman;
+    color: rgba(0,0,0,0.5)
+}
+
 .img-medium {
     height: 250px;
 }
