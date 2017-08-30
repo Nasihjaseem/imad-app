@@ -14,6 +14,6 @@ request.onreadystatechange= function(){
         }
     }
 };
-request.open('GET','http://nasihjzofficial.imad.hasura-app.io',true);
+request.open('GET','http://nasihjzofficial.imad.hasura-app.io/Cars.html',true);
 request.send(null);
 };
