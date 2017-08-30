@@ -12,7 +12,7 @@ request.onreadystatechange= function(){
             span.innerHTML=counter.toString();
         }
     }
-}
+};
 request.open('GET','http://nasihjzofficial.imad.hasura-app.io/counter',true);
 request.send(null);
 };
