@@ -34,7 +34,8 @@ a:hover, a:active {
 }
 .desc{
     font-family: times new roman;
-    color: rgba(0,0,0,0.5)
+    color: rgba(0,0,0,0.5);
+      padding-top:20px;
 }
 
 .img-medium {
