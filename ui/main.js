@@ -20,7 +20,7 @@ button.onclick=  function()
 
 var nameInput= document.getElementById('name');
 var name=nameInput.value;
-var submit = document.getElementById('sub');
+var submit = document.getElementById('suv');
 
 submit.onclick=function(){
     //function should make a request to the server. capture it and render it on the page.
