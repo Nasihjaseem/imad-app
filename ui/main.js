@@ -18,9 +18,10 @@ button.onclick=  function()
         request.send(null);
 };
 
-var nameInput= document.getElementById("name");
+var nameInput= document.getElementById('name');
 var name=nameInput.value;
-var submit=document.getElementById("sub");
+var submit = document.getElementById('sub');
+
 submit.onclick=function(){
     //function should make a request to the server. capture it and render it on the page.
     var names=['name1','name2','name3','name4'];
