@@ -30,4 +30,5 @@ submit.onclick=function(){
     }
     var ul=document.getElementById("list");
     ul.innerHTML=list;
+    console.log(list);
 }
