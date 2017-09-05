@@ -18,7 +18,7 @@ button.onclick=  function()
         request.send(null);
 };
 
-var nameInput= document.getElementById('name');
+/*var nameInput= document.getElementById('name');
 var namez=nameInput.value;
 var submit = document.getElementById('sub');
 
@@ -37,5 +37,5 @@ document.getElementById("nameList").innerHTML=list;
 document.getElementById("suv");
 suv.onclick=function(){
     alert("blablabla")
-};
+};*/
 alert("blablablabla");
