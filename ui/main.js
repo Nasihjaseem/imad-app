@@ -32,5 +32,5 @@ submit.onclick=function(){
     }
 document.getElementById("nameList").innerHTML=list;
 
-    console.log(list);
+    alert("hyy");
 };
