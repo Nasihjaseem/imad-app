@@ -19,7 +19,7 @@ button.onclick=  function()
 };
 
 var nameInput= document.getElementById('name');
-var name=nameInput.value;
+var namez=nameInput.value;
 var submit = document.getElementById('sub');
 
 submit.onclick=function(){
@@ -37,5 +37,5 @@ document.getElementById("nameList").innerHTML=list;
 document.getElementById("suv");
 suv.onclick=function(){
     alert("blablabla")
-}
+};
 alert("blablablabla");
