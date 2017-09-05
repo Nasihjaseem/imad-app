@@ -38,3 +38,4 @@ document.getElementById("suv");
 suv.onclick=function(){
     alert("blablabla")
 }
+alert("blablablabla");
