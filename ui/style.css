@@ -99,3 +99,28 @@ a:hover, a:active {
   opacity: 1;
   right: 0;
 }
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+.sidenav {
+  padding-top: 20px;
+  background-color: #f1f1f1;
+  min-height: calc(100vh - 50px);
+}
+.full-height {
+  min-height: calc(100vh - 50px);
+}
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
+@media screen and (max-width: 767px) {
+  .sidenav {
+    min-height: auto;
+    padding: 15px;
+  }
+  .row.content {height:auto;}
+}
